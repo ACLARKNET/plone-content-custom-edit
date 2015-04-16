@@ -14,8 +14,8 @@ setup(
     ],
     long_description=open('README.rst').read(),
     name='plone_content_custom_edit',
-    namespace_packages=[
-    ],
+#    namespace_packages=[
+#    ],
     packages=find_packages(),
     version=VERSION,
 )

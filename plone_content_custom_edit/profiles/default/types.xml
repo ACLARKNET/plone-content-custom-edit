@@ -1,0 +1,3 @@
+<object name="portal_types">
+ <object name="plone_content_custom_edit.content.program" meta_type="Dexterity FTI" />
+</object>
