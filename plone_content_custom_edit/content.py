@@ -9,25 +9,25 @@ class IProgram(model.Schema):
     """
 
     title = schema.TextLine(
-            title=_(u"Program name"),
+            title=(u"Program name"),
         )
 
     description = schema.Text(
-            title=_(u"Program summary"),
+            title=(u"Program summary"),
         )
 
     start = schema.Datetime(
-            title=_(u"Start date"),
+            title=(u"Start date"),
             required=False,
         )
 
     end = schema.Datetime(
-            title=_(u"End date"),
+            title=(u"End date"),
             required=False,
         )
 
     details = RichText(
-            title=_(u"Details"),
-            description=_(u"Details about the program"),
+            title=(u"Details"),
+            description=(u"Details about the program"),
             required=False,
         )

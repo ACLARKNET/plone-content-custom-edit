@@ -11,6 +11,7 @@ setup(
     },
     include_package_data=True,
     install_requires=[
+        'plone.app.dexterity [grok]',
     ],
     long_description=open('README.rst').read(),
     name='plone_content_custom_edit',
