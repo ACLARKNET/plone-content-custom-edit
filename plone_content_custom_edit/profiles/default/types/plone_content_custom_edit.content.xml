@@ -1,0 +1,3 @@
+<object name="plone_content_custom_edit.content">
+  <property name="schema">program_content_custom_edit.content.IProgram</property>
+</object>
